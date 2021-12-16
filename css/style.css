@@ -1,0 +1,102 @@
+body {
+  background-color: aquamarine;
+  background-position: absolute;
+  text-align: cener;
+}
+
+.box {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.box #button {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: red;
+}
+
+.box #button:hover {
+  background-color: blue;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  color: blue;
+  /* background-color: green; */
+}
+
+header {
+  text-align: center;
+  padding-bottom: 3em;
+  padding-top: 2em;
+}
+
+header span {
+  font-size: 80px;
+  color: red;
+}
+
+#box-1 {
+    text-transform: capitalize;
+  height: 395px;
+  width: 395px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(
+    farthest-side at 25% 20%,
+    white,
+    gray 0%,
+    black 66%
+  );
+}
+#box-2 {
+  position: absolute;
+  background-color: black;
+  height: 195px;
+  width: 195px;
+  border-radius: 100%;
+  border: 2px inset rgb(51, 51, 51, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flip the triagle */
+#box-3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-top: 15px;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-top: 130px solid mediumblue;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#box-4 {
+  position: absolute;
+  width: 80px;
+  height: 150px;
+  text-align: center;
+  font-size: 22px;
+  color: aliceblue;
+}
+form {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.foot {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 1.5em;
+}
+
